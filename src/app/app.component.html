@@ -1,0 +1,13 @@
+<div class="header-img">
+  <div class="header">
+    <h1>Ronaldo brilhante</h1>
+    <p>como será que a galinha bota ovo de outra cor</p>
+  </div>
+</div>
+<div class="news">
+  <div class="news-item" *ngFor="let n of news">
+    <h1>{{ n.title }}</h1>
+    <p>{{ n.description }}</p>
+    <p>{{ n.date }}</p>
+  </div>
+</div>
